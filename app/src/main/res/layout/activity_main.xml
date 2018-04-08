@@ -11,7 +11,8 @@
 
  <LinearLayout
      android:layout_width="match_parent"
-     android:layout_margin="20dp"
+     android:layout_marginTop="20dp"
+     android:layout_marginBottom="15dp"
      android:layout_height="wrap_content">
 
      <EditText
@@ -104,6 +105,7 @@
         android:gravity="center_horizontal"
         >
         <Button
+            android:layout_margin="20dp"
             android:id="@+id/btn"
             android:layout_width="100dp"
             android:layout_height="40dp"
@@ -117,6 +119,7 @@
 
 
     <LinearLayout
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -126,7 +129,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_weight="1"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         >
 
         <TextView
@@ -134,25 +137,25 @@
             android:layout_height="wrap_content"
             android:text="Net ID:"
             android:layout_gravity="center_horizontal"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Broadcast ID:"
             android:layout_gravity="center_horizontal"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cantidad de IP:"
             android:layout_gravity="center_horizontal"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
@@ -165,48 +168,19 @@
             android:textColor="@color/Letter"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
-
-        <TextView
-            android:layout_marginTop="25dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Parte de Host:"
-            android:layout_gravity="center_horizontal"
-            android:textSize="25sp"
-            android:textColor="@color/colorPrimaryDark"/>
-
-        <TextView
-            android:id="@+id/partehost"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Parte de Host"
-            android:layout_gravity="center_horizontal"
-            android:textSize="15sp"
-            android:textColor="@color/Letter"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:background="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
-
-
-
-
-
-
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         >
 
         <TextView
@@ -219,14 +193,14 @@
             android:textColor="@color/Letter"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
 
         <TextView
             android:id="@+id/broadcast"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="25dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Broadcast ID:"
@@ -235,17 +209,17 @@
             android:textColor="@color/Letter"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
         <TextView
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="43dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Parte de Red:"
             android:layout_gravity="center_horizontal"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
@@ -258,7 +232,7 @@
             android:textColor="@color/Letter"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="5dp"
+            android:layout_height="2dp"
             android:background="#000000"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
@@ -268,5 +242,34 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
 
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parte de Host:"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/partehost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Parte de Host"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/Letter"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
 </LinearLayout>

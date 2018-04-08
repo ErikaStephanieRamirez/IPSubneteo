@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SubneteoIP.iml" filepath="$PROJECT_DIR$/SubneteoIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IPSubneteo.iml" filepath="$PROJECT_DIR$/.idea/IPSubneteo.iml" />
+      <module fileurl="file://C:\Users\kEVIN\AndroidStudioProjects\IPSubneteo\SubneteoIP.iml" filepath="C:\Users\kEVIN\AndroidStudioProjects\IPSubneteo\SubneteoIP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\kEVIN\AndroidStudioProjects\IPSubneteo\app\app.iml" filepath="C:\Users\kEVIN\AndroidStudioProjects\IPSubneteo\app\app.iml" />
     </modules>
   </component>
 </project>
